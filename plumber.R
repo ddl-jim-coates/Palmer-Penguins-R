@@ -1,5 +1,7 @@
 # plumber.R
 
+pr %>% pr_get("/", pr$getApiSpec) %>% pr_run()
+
 #* Echo back the input
 #* @param msg The message to echo
 #* @get /echo
@@ -9,8 +11,7 @@ function(msg="") {
 
 #* @get /
 function(){
-  pr = plumber::pr("plumber.R")
-  pr %>% pr_get("/swagger.json", pr$getApiSpec) %>% pr_run()
+ #place holder for swagger documentation
 }
 
 #* Plot a histogram
