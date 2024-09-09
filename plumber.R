@@ -10,7 +10,7 @@ function(msg="") {
 #* @get /
 function(){
   pr = plumber::pr("plumber.R")
-  pr$getApiSpec()
+  pr %>% pr_get("/swagger.json", pr$getApiSpec) %>% pr_run()
 }
 
 #* Plot a histogram
