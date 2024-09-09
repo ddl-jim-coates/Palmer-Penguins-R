@@ -9,8 +9,7 @@ function(msg="") {
 
 #* @get /
 function(){
-  pr = plumber::pr("plumber.R")
-  pr_get("/__docs__")
+  pr = plumber::pr("plumber.R") %>% pr$ps_get("/__docs__")
 }
 
 #* Plot a histogram
