@@ -7,7 +7,16 @@ function(msg="") {
   list(msg = paste0("The message is: '", msg, "'"))
 }
 
-pr() %>% pr_get("/", "/__docs__/index.html") %>% pr_run()
+#* Documentation Path
+#*
+#* @tag Documentation
+#* @html
+#* @get /
+function(req, res) {
+  res$status <- 303 # redirect
+  res$setHeader("Location", "./__docs__/")
+  "<html><head><meta http-equiv=\"Refresh\" content=\"0; url=./__docs__\" /></head></html>"
+}
 
 #* Plot a histogram
 #* @serializer png
