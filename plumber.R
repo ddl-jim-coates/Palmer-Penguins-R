@@ -8,9 +8,9 @@ function(msg="") {
 }
 
 #* @get /
-# @serializer html
 function(){
-  Plumber$getApiSpec()
+  pr = plumber::pr("plumber.R")
+  pr$getApiSpec()
 }
 
 #* Plot a histogram
