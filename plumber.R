@@ -10,7 +10,7 @@ function(msg="") {
 #* @get /
 # @serializer html
 function(){
-  getApiSpec()
+  Plumber$getApiSpec()
 }
 
 #* Plot a histogram
