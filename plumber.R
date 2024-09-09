@@ -1,5 +1,5 @@
 # plumber.R
-
+pr = plumber::pr("plumber.R")
 pr %>% pr_get("/", pr$getApiSpec) %>% pr_run()
 
 #* Echo back the input
@@ -11,7 +11,7 @@ function(msg="") {
 
 #* @get /
 function(){
- #place holder for swagger documentation
+  #Hold for redirect
 }
 
 #* Plot a histogram
