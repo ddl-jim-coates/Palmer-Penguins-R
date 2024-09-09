@@ -7,14 +7,7 @@ function(msg="") {
   list(msg = paste0("The message is: '", msg, "'"))
 }
 
-redirect <- function(req, res) {
-  res$status <- 301 # redirect permanently
-  res$setHeader("Location", "../__docs__/")
-  res$body <- "redirecting..."
-  res
-}
-
-pr() %>% pr_get("/", redirect) %>% pr_run()
+pr() %>% pr_get("/", "/__docs__/index.html") %>% pr_run()
 
 #* Plot a histogram
 #* @serializer png
