@@ -1,6 +1,4 @@
 # plumber.R
-pr = plumber::pr("plumber.R")
-pr %>% pr_get("/", pr$getApiSpec) %>% pr_run()
 
 #* Echo back the input
 #* @param msg The message to echo
@@ -11,7 +9,8 @@ function(msg="") {
 
 #* @get /
 function(){
-  #Hold for redirect
+  pr = plumber::pr("plumber.R")
+  pr_get("/__docs__")
 }
 
 #* Plot a histogram
