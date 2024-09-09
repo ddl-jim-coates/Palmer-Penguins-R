@@ -1,1 +1,1 @@
-Rscrpit api.R
+Rscript api.R
