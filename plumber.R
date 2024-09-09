@@ -7,6 +7,12 @@ function(msg="") {
   list(msg = paste0("The message is: '", msg, "'"))
 }
 
+#* @get /
+#* @serializer html
+function(){
+  "<html><h1>Hello World!</h1></html>"
+}
+
 #* Plot a histogram
 #* @serializer png
 #* @get /plot
