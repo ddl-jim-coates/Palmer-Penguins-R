@@ -8,9 +8,9 @@ function(msg="") {
 }
 
 #* @get /
-#* @serializer html
+# @serializer html
 function(){
-  "<html><h1>Hello World!</h1></html>"
+  getApiSpec()
 }
 
 #* Plot a histogram
