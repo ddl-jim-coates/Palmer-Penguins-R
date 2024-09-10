@@ -1,5 +1,5 @@
 # palmerpenguins
-![penguin_badge](https://github.com/ddl-jim-coates/Palmer-Penguins-R/testtestblob/main/penguin_badge.png?raw=true)
+![penguin_badge](https://github.com/ddl-jim-coates/Palmer-Penguins-R/blob/main/penguin_badge.png?raw=true)
 
 <!-- badges: start -->
 
@@ -241,5 +241,3 @@ Chinstrap penguins:
     Environmental Data Initiative.
     <https://doi.org/10.6073/pasta/c14dfcfada8ea13a17536e73eb6fbe9e>
     (Accessed 2020-06-08).
-
-  TEST
