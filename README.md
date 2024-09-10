@@ -1,5 +1,5 @@
 # palmerpenguins
-![penguin_badge](https://github.com/ddl-jim-coates/Palmer-Penguins-R/blob/main/penguin_badge.png?raw=truetest)
+![penguin_badge](https://github.com/ddl-jim-coates/Palmer-Penguins-R/testtestblob/main/penguin_badge.png?raw=true)
 
 <!-- badges: start -->
 
