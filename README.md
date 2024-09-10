@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# palmerpenguins ![penguin_logo](../man/figures/logo.png)
+# palmerpenguins <a href='https://allisonhorst.github.io/palmerpenguins/'><img src='raw/latest/man/figures/logo.png' align="right" height="138.5" /></a>
 
 <!-- badges: start -->
 
