@@ -2,7 +2,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # palmerpenguins
-![images](u/jim_coates/Palmer_Penguins/raw/latest/penguin_badge.png)
+![images](/raw/latest/penguin_badge.png)
 
 <!-- badges: start -->
 
