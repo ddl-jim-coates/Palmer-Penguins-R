@@ -1,7 +1,8 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# palmerpenguins ![image](raw/latest/logo.png)
+# palmerpenguins
+![image](raw/latest/logo.png)
 
 <!-- badges: start -->
 
