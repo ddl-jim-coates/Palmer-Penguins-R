@@ -1,9 +1,9 @@
 # palmerpenguins
-![penguin_badge](https://github.com/ddl-jim-coates/Palmer-Penguins-R/blob/main/penguin_badge.png?raw=true)
+![penguin_badge](https://github.com/ddl-jim-coates/Palmer-Penguins-R/blob/main/penguin_badge.png?raw=truetest)
 
 <!-- badges: start -->
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3960218.svg)](https://doi.org/10.5281/zenodo.3960218test)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3960218.svg)](https://doi.org/10.5281/zenodo.3960218)
 [![CRAN](https://www.r-pkg.org/badges/version/palmerpenguins)](https://cran.r-project.org/package=palmerpenguins)
 
 <!-- badges: end -->
