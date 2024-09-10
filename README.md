@@ -1,6 +1,3 @@
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # palmerpenguins
 ![penguin_badge](https://github.com/ddl-jim-coates/Palmer-Penguins-R/blob/main/penguin_badge.png?raw=true)
 
