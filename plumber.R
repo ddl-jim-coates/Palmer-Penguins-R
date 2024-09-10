@@ -7,17 +7,6 @@ function(msg="") {
   list(msg = paste0("The message is: '", msg, "'"))
 }
 
-#* Documentation Path
-#*
-#* @tag Documentation
-#* @html
-#* @get /
-function(req, res) {
-  res$status <- 303 # redirect
-  res$setHeader("Location", "./__docs__/")
-  "<html><head><meta http-equiv=\"Refresh\" content=\"0; url=./__docs__\" /></head></html>"
-}
-
 #* Plot a histogram
 #* @serializer png
 #* @get /plot
@@ -32,4 +21,15 @@ function() {
 #* @post /sum
 function(a, b) {
   as.numeric(a) + as.numeric(b)
+}
+
+#* Documentation Path
+#*
+#* @tag Documentation
+#* @html
+#* @get /
+function(req, res) {
+  res$status <- 303 # redirect
+  res$setHeader("Location", "./__docs__/")
+  "<html><head><meta http-equiv=\"Refresh\" content=\"0; url=./__docs__\" /></head></html>"
 }
