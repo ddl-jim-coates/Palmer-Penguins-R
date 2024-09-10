@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# palmerpenguins <a href='https://allisonhorst.github.io/palmerpenguins/'><img src='raw/latest/code/man/figures/logo.png' align="right" height="138.5" /></a>
+# palmerpenguins ![alt text for screen readers](/raw/latest/man/figures/logo.png "Text to show on mouseover")
 
 <!-- badges: start -->
 
