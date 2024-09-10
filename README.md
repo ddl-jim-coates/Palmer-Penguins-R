@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# palmerpenguins <a href='https://allisonhorst.github.io/palmerpenguins/'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
+# palmerpenguins ![penguin_log](logo.png)
 
 <!-- badges: start -->
 
@@ -13,7 +13,7 @@
 The goal of palmerpenguins is to provide a great dataset for data
 exploration & visualization, as an alternative to `iris`.
 
-<img src="mnt/code/man/figures/README-flipper-bill-1.png" width="75%" style="display: block; margin: auto;" />
+<img src="man/figures/README-flipper-bill-1.png" width="75%" style="display: block; margin: auto;" />
 
 ## Installation
 
