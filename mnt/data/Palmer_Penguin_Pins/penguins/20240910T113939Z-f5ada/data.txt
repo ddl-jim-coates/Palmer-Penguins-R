@@ -1,0 +1,10 @@
+file: penguins.rds
+file_size: 81
+pin_hash: f5adaa8288fae3e0
+type: rds
+title: 'penguins: a pinned character vector'
+description: ~
+tags: ~
+urls: ~
+created: 20240910T113939Z
+api_version: 1
